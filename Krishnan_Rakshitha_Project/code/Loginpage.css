@@ -1,0 +1,101 @@
+/* Apply styles to all elements for consistent appearance */
+*{
+    background: #9cccf3;
+    font-family: Roboto;
+    text-align: center;
+    color: black;
+}
+/* Styles for the main container */
+.main{
+    position: absolute;
+    height: auto;
+    width: 300px;
+    top: 200px;
+    left: 550px;
+    box-sizing: content-box;
+    border: 2px solid #f5f5f5;
+    display: flexbox;
+}
+/* Styles for the welcome section */
+.welcome{
+    margin-top: 20px;
+}
+/* Hover effect for the main container */
+.main:hover{
+    box-shadow: 8px 8px 14px #b0d4f1;
+}
+
+/* Styles for the administrator class */
+.administratorClass {
+    position: absolute;
+    text-align: center;
+    top: 50%; /* Center vertically */
+    left: 50%; /* Center horizontally */
+    transform: translate(-50%, -50%); /* Move the element back by half of its own width and height */
+    font-size: xx-large;
+    background: none;
+    color: antiquewhite;
+    width: auto;
+}
+
+/* Styles for the administrator instructor class */
+.administratorInstructorClass {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: antiquewhite;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: fit-content; 
+}
+
+/* Styles for the labels inside the administrator instructor class */
+.admin_insert_instructordetails label {
+    display: inline-block;
+    width: 150px; 
+    text-align: left
+}
+
+/* Styles for the input fields inside the administrator instructor class */
+.admin_insert_instructordetails input {
+    box-sizing: border-box;
+    border-color: white;
+    background-color: white;
+}
+
+/* Styles for the logout button for the administrator */
+.logoutAdministrator{
+    position: absolute;
+    left: 1100px;
+    top: 10px;
+}
+
+/* Styles for the administrator student class */
+.administratorStudentClass{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: antiquewhite;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: fit-content; 
+}
+
+/* Styles for the labels inside the administrator student class */
+.admin_insert_studentDetails label {
+    display: inline-block;
+    width: 150px; 
+    text-align: left
+}
+
+/* Styles for the input fields inside the administrator student class */
+.admin_insert_studentDetails input {
+    box-sizing: border-box;
+    border-color: white;
+    background-color: white;
+}
+

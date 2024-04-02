@@ -1,0 +1,219 @@
+/* Apply styles to all elements for consistent appearance */
+*{
+    background:#9cccf3 ;
+    font-family: Roboto;
+    color: black;
+    
+}
+/* Styles for the navigation bar */
+.nav{
+    width: 310px;
+    height: 100%;
+    position: absolute;
+    left: 0px;
+    box-sizing: content-box;
+    border: 2px solid f5f5f5;
+    box-shadow: 4px 4px 10px antiquewhite;
+}
+/* Styles for the header section */
+.head{
+    position: absolute;
+    padding-left: 15px;
+    line-height: 60px;
+    width: 100%;
+    padding-top: 10px;
+    border: 1px solid f5f5f5; 
+    box-shadow: 2px 2px 4px antiquewhite;
+}
+
+/* Styles for the navigation items */
+.items{
+
+    margin-top: 80px;
+    line-height: 4;
+    color: f5f5f5;
+    
+    
+    
+}
+/* Styles for individual navigation items */
+.menteeFb, .coursefb, .menteereq, .courseApproval{
+    
+    position: absolute;
+    width: 100%;
+    
+    border: 1px solid f5f5f5;
+    text-decoration: none;
+       
+}
+/* Hover effect for the below mentioned items */
+.head:hover{
+    box-shadow: 4px 4px 10px #b0d4f1;
+}
+.menteeFb:hover, .menteereq:hover, .courseApproval:hover, .coursefb:hover{
+    
+    box-shadow: 2px 2px 6px #b0d4f1;    
+}
+/* Styles for links in navigation and header */
+.items a,.head a{
+    text-decoration: none;
+    color: black;
+}
+/* Styles for the Texas Tech University logo */
+.ttu{
+    position: absolute;
+    top: 90%;
+    left: 10%;
+    
+}
+.ttu:hover{
+    box-shadow: 1px 1px 3px #b0d4f1;
+}
+/* Styles for additional information */
+.extra{
+    text-align: center;
+    padding-top: 15px;
+    font-weight: bolder;
+    color: black;
+}
+
+/* Styles for announcements */
+.ann{
+    position: absolute;
+    top: 150px;
+    left: 340px;
+    width: 700px;
+    border: 2px solid f5f5f5;
+    text-align: left;
+    box-shadow: 2px 2px 6px antiquewhite;
+}
+/* Styles for additional information and subscriptions */
+.info ,.subs{
+    color: black;
+}
+/* Styles for more information section */
+.moreinfo{
+    text-align: end;
+    color: black;
+}
+/* Styles for the courses section */
+.courses{
+    position: absolute;
+    left: 340px;
+    top: 350px;
+    width: 700px;
+    border: 2px solid f5f5f5;
+    text-align: left;
+    box-shadow: 2px 2px 6px antiquewhite;
+}
+/* Styles for the task section */
+.task{
+    position: absolute;
+    top: 75px;
+    left: 1150px;
+    width: 250px;
+    height: 500px;
+    padding-top: 10px;
+    border: 2px solid f5f5f5;
+}
+/* Styles for the sidebar tasks */
+.sbtask{
+    color: black;
+    text-align: start;
+    padding-left: 15px;
+    text-decoration: underline;
+}
+
+/* Styles for the logout button */
+.logout{
+    position: absolute;
+    left: 1300px;
+    top: 10px;
+}
+
+/* Styles for icons in navigation items */
+.menteeFb img,.coursefb img, .courseApproval img, .menteereq img{
+    color: antiquewhite;
+    background: antiquewhite;
+}
+
+/* Styles for tables */
+table{
+    position: absolute;
+    top:250px;
+    left: 450px;
+    width: 800px;
+    border: 2px solid f5f5f5;
+    color: black;
+    text-align: center;
+    border-collapse: collapse;
+}
+.tab{
+    position: absolute;
+    top:250px;
+    left: 450px;
+    width: 800px;
+    border: 2px solid f5f5f5;
+    color: black;
+    text-align: center;
+    border-collapse: collapse;
+}
+.tab2{
+    position: absolute;
+    top:500px;
+    left: 450px;
+    width: 800px;
+    border: 2px solid f5f5f5;
+    color: black;
+    text-align: center;
+    border-collapse: collapse;
+}
+th,td{
+    border: 1px solid black;
+}
+
+/* Styles for the administrator class */
+.administratorClass {
+    position: absolute;
+    text-align: center;
+    top: 50%; /* Center vertically */
+    left: 50%; /* Center horizontally */
+    transform: translate(-50%, -50%); /* Move the element back by half of its own width and height */
+    font-size: xx-large;
+    background: none;
+    color: antiquewhite;
+}
+
+
+.administratorInstructorClass {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: antiquewhite;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 400px; 
+}
+
+.admin_insert_instructordetails label {
+    display: inline-block;
+    width: 150px; 
+    text-align: right
+}
+
+/* Styles for the submit button in the administrator instructor class */
+
+.adminSubmit {
+    cursor: pointer;
+    height: auto;
+    left: 50px;
+    box-sizing: content-box;
+    border: 2px solid #f5f5f5;
+    display: flexbox;
+}
+
+
+
+

@@ -1,0 +1,86 @@
+/* Styles for the header section */
+.head{
+    color: black;
+    text-align: center;
+    margin-top: 70px;
+    font-family: Roboto;
+    
+}
+
+/* Styling for the images (login options) */
+#one, #two, #three{
+    height: 500px;
+    width: 300px;
+    opacity: 0.5;
+    border: 2px solid antiquewhite;
+    border-radius: 30px;
+    animation: Ani 1s linear 1s infinite normal ;
+}
+
+/* Styles for the body section containing login options */
+.body{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    
+}
+
+/* Background styles for all elements */
+*{
+    background: #9cccf3;
+}
+
+/* Styles for the image container */
+.img{
+    position: relative;
+    
+}
+
+/* Styles for the description text on images */
+.Des{
+    position: absolute;
+    text-align: center;
+    top: 223px;
+    left: 90px;
+    font-size: xx-large;
+    background:none;
+    color: antiquewhite;
+    
+}
+.des2{
+    position: absolute;
+    text-align: center;
+    top: 223px;
+    left: 100px;
+    font-size: xx-large;
+    background: none;
+    color: antiquewhite;
+}
+.des3{
+    position: absolute;
+    text-align: center;
+    top: 223px;
+    left: 100px;
+    font-size: xx-large;
+    background: none;
+    color: antiquewhite;
+}
+
+/* Hover effect for the images */
+#two:hover{
+    box-shadow: 8px 8px 15px #b0d4f1;
+}
+#one:hover{
+    box-shadow: 8px 8px 15px #b0d4f1; 
+}
+#three:hover{
+    box-shadow: 8px 8px 15px #b0d4f1; 
+}
+
+/* @keyframes Ani {
+    0%{box-shadow: none;}
+    100%{box-shadow: 8px 8px 15px black;}
+    
+} */
+
+
